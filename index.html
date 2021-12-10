@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Caisse enregistreuse</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width ,initial-scale-1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+     <div class="container">
+         <div class="row">
+            <h1>Bienvenue sur le site de la caisse enregistreuse :</h1>
+             <div class="col-sm 3 mx-auto mt-5 text center">
+                 <div class="mb-6">
+                     <label for="total" class="form-label">Saisissez le montant total à payer :</label>
+                     <input type="text" class="form-control" id="total" aria-describedby="total">
+                 </div>
+                 <div class="mb-6">
+                    <label for="monnaie" class="form-label">Saisissez le montant donné par le client :</label>
+                    <input type="text" class="form-control" id="monnaie" aria-describedby="monnaie">
+                 </div>
+            </div>       
+                 <h2>Cette caisse enregistreuse rend des billets de 10 , 5 et 1 euros</h2>
+                 <button type="submit" id="button" class="btn btn primary mt-5 mb-5 ,">Rendre la monnaie</button>
+              </div>
+                <div class="row">
+                    <div class="col-sm 1"></div>
+                 <div class="col-sm 1">
+                  <div class="card">
+                    <div class="card body dix euros">
+                        <img src="assets/10 euros.jpg" width="350">
+                        <div id="message10" class="valeur-alignee"></div>
+                    </div>
+                  </div> 
+                </div> 
+                <div class="col-sm 3">
+                    <div class="card">
+                      <div class="card body cinq euros">
+                          <img src="assets/5 euros.jpeg" width="330">
+                          <div id="message5" class="valeur-alignee"></div>
+                      </div>
+                    </div> 
+                  </div> 
+                  <div class="col-sm 3">
+                    <div class="card">
+                      <div class="card body un euros">
+                          <img src="assets/1 euro.jpg" width="340">
+                          <div id="message1" class="valeur-alignee"></div>
+                      </div>
+                    </div> 
+                  </div> 
+          </div>           
+     </div>                                
+    </body>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</html>
